@@ -21,6 +21,9 @@
     "url": "https://github.com/Andarist/use-latest/issues"
   },
   "homepage": "https://github.com/Andarist/use-latest#readme",
+  "dependencies": {
+    "use-isomorphic-layout-effect": "^1.0.0"
+  },
   "peerDependencies": {
     "react": "^16.8.0"
   },
