@@ -24,6 +24,11 @@
   "peerDependencies": {
     "react": "^16.8.0"
   },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
