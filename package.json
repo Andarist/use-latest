@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Andarist/use-latest#readme",
   "dependencies": {
-    "use-isomorphic-layout-effect": "^1.0.0"
+    "use-isomorphic-layout-effect": "^1.1.1"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0"
