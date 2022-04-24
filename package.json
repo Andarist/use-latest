@@ -1,6 +1,6 @@
 {
   "name": "use-latest",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A React helper hook for storing latest value in ref object (updated in useEffect's callback).",
   "main": "dist/use-latest.cjs.js",
   "module": "dist/use-latest.esm.js",
