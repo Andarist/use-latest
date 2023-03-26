@@ -1,8 +1,8 @@
-import * as React from 'react'
+import { useRef } from 'react'
 import useIsomorphicLayoutEffect from 'use-isomorphic-layout-effect'
 
 const useLatest = <T>(value: T) => {
-  const ref = React.useRef(value)
+  const ref = useRef(value)
 
   useIsomorphicLayoutEffect(() => {
     ref.current = value
