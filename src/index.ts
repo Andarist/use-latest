@@ -1,7 +1,7 @@
 import * as React from 'react'
 import useIsomorphicLayoutEffect from 'use-isomorphic-layout-effect'
 
-const useLatest = <T>(value: T) => {
+export const useLatest = <T>(value: T) => {
   const ref = React.useRef(value)
 
   useIsomorphicLayoutEffect(() => {
