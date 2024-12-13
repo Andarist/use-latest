@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import useIsomorphicLayoutEffect from 'use-isomorphic-layout-effect'
 
 const useLatest = <T>(value: T) => {
